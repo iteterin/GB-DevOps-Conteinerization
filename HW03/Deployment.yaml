@@ -26,8 +26,9 @@ spec:
             value: default
         resources:
           limits:
-            memory: 128Mi
+            memory: 512Mi
             cpu: 500m
         ports:
         - containerPort: 5900
+          protocol: TCP
           name: vnc
